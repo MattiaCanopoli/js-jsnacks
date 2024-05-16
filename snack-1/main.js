@@ -6,6 +6,10 @@
 const num1 = prompt('numero 1');
 const num2 = prompt('numero 2');
 
-if (num1 > num2) console.log('il maggiore è ' + num1);
-else if (num1 == num2) console.log('sono equivalenti');
-else console.log('il maggiore è ' + num2);
+let msg;
+
+if (num1 > num2) msg = 'il maggiore è ' + num1;
+else if (num1 == num2) msg = 'sono equivalenti';
+else msg = 'il maggiore è ' + num2;
+
+console.log(msg);
