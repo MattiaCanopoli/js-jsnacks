@@ -9,7 +9,7 @@ const num2 = prompt('numero 2');
 let msg;
 
 if (num1 > num2) msg = 'il maggiore è ' + num1;
-else if (num1 == num2) msg = 'sono equivalenti';
+else if (num1 === num2) msg = 'sono equivalenti';
 else msg = 'il maggiore è ' + num2;
 
 console.log(msg);
