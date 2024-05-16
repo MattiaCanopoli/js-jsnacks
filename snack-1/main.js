@@ -3,8 +3,8 @@
 // L’utente inserisce due numeri in successione, con due prompt.
 // Il software stampa il maggiore.
 
-const num1 = prompt('numero 1');
-const num2 = prompt('numero 2');
+const num1 = Number(prompt('numero 1'));
+const num2 = Number(prompt('numero 2'));
 
 let msg;
 
